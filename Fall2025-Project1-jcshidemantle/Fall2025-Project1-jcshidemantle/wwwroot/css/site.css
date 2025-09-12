@@ -1,0 +1,44 @@
+html {
+    background-color: rgb(34, 34, 34);
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Title {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+#CoverArt {
+    width: 400px;
+    border-radius: 50px;
+}
+
+#Rating {
+    font-size: large;
+    margin-top: 7px;
+}
+
+#TrailerHeader {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+a:any-link {
+    color: lightgray;
+}
+
+#ActorsHeader {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+#Actors {
+    margin-top: 5px;
+    padding-left: 0;
+    list-style-position: inside;
+}
