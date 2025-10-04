@@ -1,0 +1,86 @@
+body {
+    background: url(../assets/background0.jpg) no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Alan Sans';
+}
+
+#searchBox {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgb(172, 222, 222);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+}
+
+#buttonsBox {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    background-color: lightgray;
+    border: 0.5px solid black;
+}
+
+#header {
+    color: rgb(11, 48, 75);
+    font-size: 4rem;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
+    width: fit-content;
+}
+
+#query {
+    height: 2rem;
+    padding-left: 0.5rem;
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+}
+
+#resultsBox {
+    display: flex;
+    flex-direction: column;
+    max-height: 50vh;
+    overflow: auto;
+}
+
+#searchResults {
+    display: none;
+    background-color: white;
+    border-left: 1px solid black;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+#resultCard {
+    padding: 10px 3px;
+    border-bottom: 0.5px solid gray;
+}
+
+
+#resultCard a:link,
+#resultCard a:visited {
+    text-decoration: none;
+}
+
+#resultCard a:hover {
+    text-decoration: underline;
+}
+
+#resultCard p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

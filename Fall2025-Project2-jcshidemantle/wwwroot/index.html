@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/site.css" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <!--JQuery UI/Theme-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/themes/smoothness/jquery-ui.css" integrity="sha384-IUy5/r9Ihkf8KKnMsd1BzkscCgiRNeS+JpJxqozy6rZVCGdsxhJ8an7uR6rtKqdG" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js" integrity="sha384-SStJQoPipVtHHnIgUfDI+jTAbSyU+HMbhwt2XRRNpLIRFg9VguopT6Y4+cdOlkqg" crossorigin="anonymous"></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <title>ShidesSearch</title>
+</head>
+<body>
+    <h1 id="header">ShidesSearch</h1>
+    <!--Search box, results, and buttons-->
+    <div id="searchBox">
+        <input autocomplete="off" id="query" type="text" placeholder="Enter your search here..." />
+        <div id="resultsBox">
+            <!--Div to be populated with results, see site.js-->
+            <div id="searchResults">
+
+            </div>
+        </div>
+        <!--Search, lucky, and current time buttons. See site.js for more-->
+        <div id="buttonsBox">
+            <button id="searchButton">Search</button>
+            <button id="luckyButton">I'm Feeling Lucky</button>
+            <button id="timeButton">Display Current Time</button>
+        </div>
+    </div>
+    <!--JQuery UI dialog box to display current time, see site.js-->
+    <div id="time">
+
+    </div>
+    <script src="js/site.js"></script>
+</body>
+</html>
