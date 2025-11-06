@@ -23,7 +23,7 @@ $("#timeButton").on("click", function () {
 // Get data from google API using query
 function getData(query) {
     // Sensitive data removed
-    return $.ajax(`https://www.googleapis.com/customsearch/v1?key=[INSERT_KEY_HERE]&cx=[INSERT_CX_TAG_HERE]&q=${query}`);
+    return $.ajax(`https://www.googleapis.com/customsearch/v1?key=AIzaSyCTnmQ6N-s6GQB3v0I_th5u4953lKG-pCI&cx=536aa3e3978bb423e&q=${query}`);
 }
 
 // Get search results, then put results inside searchResult div.
